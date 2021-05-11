@@ -103,7 +103,7 @@ class Customer
         $customer = Iugu_Customer::create([
             "email"      => "suporte@artedesignpa.com.br",
             "name"       => "John Snow",
-            "cpf_cnpj"   => "810.829.752-49",
+            "cpf_cnpj"   => "810.000.752-00",
             "cc_emails"  => "artedesignpa@gmail.com",
             "zip_code"   => "29190560",
             "number"     => "8",

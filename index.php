@@ -149,8 +149,8 @@ class Token
         header("Content-type: application/json; charset: utf8");
         $data  = [
             "verification_value"=>"123",
-            "first_name"=>"ANDRÉ",
-            "last_name"=>"MARTINS LOPES",
+            "first_name"=>"NOME",
+            "last_name"=>"SOBRENOME",
             "month"=>"01",
             "year"=>"2025",
             "number"=>"4111-1111-1111-1111"
@@ -166,7 +166,7 @@ class Token
         
         print_r($token);
 
-        //output: id = 2a53a6a4-1823-4bb7-97d2-4bc0ded575df
+        //output (Hash token): id = 2a53a6a4-1823-4bb7-97d2-4bc0ded575df
     }
     public function update()
     {
